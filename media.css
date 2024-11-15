@@ -1,0 +1,102 @@
+@media (max-width:600px){
+
+.part1{
+        height: 300px;
+        width: 450px;       
+        margin-left: 10%;
+        margin-top: 15%;
+        display: flex;
+        border-radius: 5px;
+        box-shadow: 10px 10px 10px 10px rgb(184, 181, 181);
+}
+     
+     .partA{
+         height: 100px;
+         width: 100px;
+         background-color: rgba(255, 255, 255, 0.493);
+         background-image: url(https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+         background-size: cover;
+         background-position: center;
+         border-radius: 50%;
+         margin-left: 10px;
+         margin-top: 10px
+     }
+     .partB{
+         height: 28c0px;
+         width: 300px;
+         background-color: rgba(255, 255, 255, 0.5);
+         margin: 10px;
+         margin-left: 10px;
+         border-radius: 5px;
+         box-shadow: 10px 10px 10px 10px rgb(184, 181, 181);
+     
+     }
+     
+     
+     .partB > h1{
+         text-align: center;
+         margin-top: 5px;
+         font-size: 20px;
+         font-weight: 600;
+     }
+     .partB > p{
+         text-align: center;
+         margin-top: 5px;
+         font-size: 15px;
+         font-weight: 400;
+         margin-bottom: 5px;
+     }
+     .container{
+         height: 100px;
+         width: 200px;
+         margin: auto;
+         border-radius: 5px;
+         display: flex;
+         justify-content: space-between;
+         position: relative;
+     
+     }
+     
+     .container > ul{
+         font-size: 10px;
+         font-weight: 400;
+         margin-left: 5px;
+         padding: 5px;
+     }
+     
+     .container > ul > li{
+         font-size: 8px;    
+     }
+     .partB > h2{
+         text-align: center;
+         font-size: 15px;
+         font-weight: 600;
+         color: black;
+         margin-top: 10px;
+         background-color: #fff;
+     }
+     .icons{
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;   
+         font-size: 15px;
+         margin-top: 10px;
+     }
+     button{
+         height: 15px;
+         width: 60px;
+         border-radius: 5px;
+         background-color: #fff;
+         font-size: 8px;
+         font-weight: 500;
+         margin-left: 40%;
+         cursor: pointer;
+     }
+     button:hover{
+         background-color: #5433ff;
+         color: #fff;
+     
+     }
+      
+}
+}
